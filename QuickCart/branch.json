@@ -1,0 +1,7 @@
+{
+  "branch_key": {
+    "live": "key_live_REPLACE_WITH_YOUR_BRANCH_KEY",
+    "test": "key_test_REPLACE_WITH_YOUR_BRANCH_KEY"
+  },
+  "deferInitForPluginRuntime": true
+}

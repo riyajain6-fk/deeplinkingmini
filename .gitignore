@@ -1,0 +1,9 @@
+node_modules/
+ios/Pods/
+ios/build/
+*.xcuserstate
+.DS_Store
+DerivedData/
+npm-debug.log*
+.env
+*.keystore

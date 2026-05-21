@@ -1,0 +1,5 @@
+# GitHub Pages — serve static files from /web as site root when repo Pages source is /web
+include:
+  - .well-known
+  - assets
+  - 404.html
