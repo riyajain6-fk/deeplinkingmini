@@ -1,0 +1,29 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "YOUR_APPLE_TEAM_ID.com.flipkartpoc.quickcart",
+        "paths": [
+          "/deeplinkingmini/product/*",
+          "/deeplinkingmini/category/*",
+          "NOT /deeplinkingmini/quickcart/*",
+          "/product/*",
+          "/category/*",
+          "NOT /quickcart/*"
+        ]
+      },
+      {
+        "appID": "YOUR_APPLE_TEAM_ID.com.flipkartpoc.shopcart",
+        "paths": [
+          "/deeplinkingmini/product/*",
+          "/deeplinkingmini/category/*",
+          "/deeplinkingmini/quickcart/product/*",
+          "/product/*",
+          "/category/*",
+          "/quickcart/product/*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QuickCart · Web Fallback</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>QuickCart POC</h1>
+      <p>Flipkart Minutes deep linking demo · web fallback</p>
+    </header>
+    <main id="app-content"></main>
+    <script src="assets/data.js"></script>
+    <script src="assets/router.js"></script>
+    <script>
+      window.POC_BASE_PATH = '/deeplinkingmini';
+      window.POCRouter.renderApp();
+    </script>
+  </body>
+</html>
